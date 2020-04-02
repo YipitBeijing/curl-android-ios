@@ -33,7 +33,7 @@ BOOL downloadUrl(const char* url, LPCURL_DOWNLOAD_OBJECT downloadObject);
     UIViewController* controller = [[UIViewController alloc] init];
     [self.window setRootViewController:controller];
 
-    const char* url = "https://www.google.com";
+    const char* url = "https://www.baidu.com";
     NSLog(@"Starting the download of url %s", url);
     CURL_DOWNLOAD_OBJECT downloadObject;
     downloadObject.data = NULL;
