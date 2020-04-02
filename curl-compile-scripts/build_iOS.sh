@@ -33,7 +33,7 @@ fi
 
 git apply ../patches/patch_curl_fixes1172.diff
 
-export CC="$XCODE/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang"
+# export CC="$XCODE/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang"
 DESTDIR="$SCRIPTPATH/../prebuilt-with-ssl/iOS"
 
 export IPHONEOS_DEPLOYMENT_TARGET="10"
