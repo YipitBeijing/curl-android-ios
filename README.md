@@ -11,7 +11,7 @@ If you want to build the library, scripts are provided for both platforms.
 Test projects are also provided for both iOS and Android.
 
 # Building
-* Clone this repo `git clone git@github.com:gcesarmza/curl-android-ios.git`
+* Clone this repo `git clone git@github.com:yuanlida/curl-android-ios.git`
 * Clone submodules `git submodule init && git submodule update`
 * Make sure you have installed `autoconf`, `automake` and `libtool` or install them with `apt-get` or `brew`
 * When building on Mac OS make sure you have Xcode Command Line Developer Tools installed
